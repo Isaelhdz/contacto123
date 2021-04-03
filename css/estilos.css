@@ -1,0 +1,4307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: open sans;
+}
+
+body{
+    background: #ffffff;
+}
+
+/*Header Top*/
+
+.contacto-top{
+    font-size:13px;
+    font-weight: 300;
+    color: #ffffff;
+    align-items: center;
+    width: 90%;
+    padding: 5px 0;
+    margin: auto;
+    height: 30px;
+    align-self: center;
+    
+}
+
+.header1{
+    background: #1f1210;
+    height: 27px;
+    z-index: 3;
+
+}
+
+
+.cel-top{
+    padding-right: 20px;
+}
+
+.contacto-top-left{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.contacto-top-right{
+    float: right;
+    display: flex;
+}
+
+.redes-img>a{
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+
+
+.icotel{
+    padding-right: 13px;
+}
+
+.instagram{
+    color: #ffffff;
+    transition: .5s;
+}
+
+.instagram:hover{
+    color: #cc398f;
+    transition: .5s;
+}
+
+.facebook{
+        color: #ffffff;
+        transition: .5s;
+}
+
+.facebook:hover{
+    color: #4195e4;
+    transition: .5s;
+}
+
+.twitter{
+    color: #ffffff;
+    transition: .5s;
+}
+
+.twitter:hover{
+    color: #39cadd;
+    transition: .5s;
+}
+
+.pinterest{
+    color: #ffffff;
+    transition: .5s;
+}
+
+.pinterest:hover{
+    color: #cc2121;
+    transition: .5s;
+}
+
+/*Header Logo-Nav*/
+
+.container{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  
+  .header2{
+    background: #2B1A16;
+    color: #fff;
+    padding: .5rem 0;
+   
+  }
+
+  .header a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo{
+    width: 150px;
+    padding: 5px 5px;
+  }
+
+  .navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+  }
+  
+  .navigation ul li{
+    display: inline-block;
+  }
+  
+  .navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    font-weight: 300;
+  }
+
+  .navigation ul li a:hover{
+      text-decoration: underline;
+      transition: .5s;
+  }
+  
+  /*Port1*/
+
+  .port1{
+      background: url(../img/port2.jpg);
+      background-size: cover;
+      background-position: bottom;
+      height: 430px;
+  }
+
+  .cont-port{
+    width: 87%;
+    margin: auto;
+  }
+
+  .textos-port{
+      color: #ffffff;
+      font-size: 2.5em;
+      padding-top: 60px;
+      margin: auto;
+      
+  }
+
+  .btn{
+    border-radius: 40px;
+    text-decoration: none;
+    display: block;
+    padding: 17px 7px;
+}
+
+.btn-uno{
+    margin-top: 22px;
+    color: #fff;
+    background-color: rgb(150, 18, 18);
+    font-size: 1.4em;
+    text-align: center;
+    width: 190px;
+    transition: .5s;
+}
+
+.btn-uno:hover{
+    margin-top: 22px;
+    color: #fff;
+    background-color: rgb(204, 25, 25);
+    font-size: 1.4em;
+    text-align: center;
+    width: 190px;
+    transition: .5s;
+}
+
+/*Section1*/
+
+.link-producto{
+    text-decoration: none;
+}
+
+
+.titulo-productos h1{
+text-align: center;
+padding-top: 58px;
+padding-bottom: 30px;
+font-weight: 400;
+font-size: 32px;
+color: rgb(54, 54, 54);
+}
+
+.contenido-card{
+    width: 100%;
+    max-width: 1200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.card-hover{
+    width: 210px;
+    height: 260px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.card-hover:hover{
+    transform: translateY(-15px);
+    transition: all .5s;
+}
+
+
+.card img{
+    width: 210px;
+    height: 150px;
+}
+
+.titulo-card{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(31, 31, 31);
+    padding-top: 2px;
+}
+
+.precio{
+    color: rgb(34, 173, 238);
+    font-size: 15px;
+    padding-top: 2px;
+    
+}
+
+.mas{
+    font-size: 17px;
+    color: rgb(180, 180, 180);
+}
+
+.ver-mas{
+    color: rgb(131, 131, 131);
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 0;
+}
+
+.ver-mas-productos{
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    
+}
+
+.ver-mas-2{
+    color: #2B1A16;
+    font-size: 18px;
+}
+
+.mas2{
+    font-size: 20px;
+    color: #301d19;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Section2*/
+
+.envio{
+    
+    background:  #2B1A16;
+}
+
+.contenido-envio{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 78%;
+    margin: auto;
+    align-items: center;
+}
+
+.textos-envio{
+    text-align:left;
+   
+}
+
+.titulo-envio{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.parrafo-envio{
+    padding-top: 25px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 34px;
+    width: 60%;
+    color: #fff;
+}
+
+.envio-img{
+    width: 310px;
+    
+}
+
+.wave{
+    color: #2B1A16; 
+    padding: 0;
+ }
+
+ /*Section3-Instagram*/
+
+
+ 
+ .siguenos-insta{
+     background: #fff;
+     background-size: cover;
+     position: relative;
+ }
+ 
+ .titulo-insta h1{
+     text-align: center;
+     padding-top: 90px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(54, 54, 54);
+ }
+
+ .contenido-card-2{
+    width: 100%;
+    max-width: 1200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.card-hover-2{
+    width: 240px;
+    height: 330px;
+    border-radius: 32px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all .5s;
+    background: #fafafa;
+}
+
+.card-hover-2:hover{
+    transform: translateY(-15px);
+    transition: all .5s;
+}
+
+
+.card-2>img{
+    width: 240px;
+    height: 240px;
+}
+
+.icons-insta>img{
+    width: 195px;
+    padding-top: 18px;
+    padding-bottom: 1px;
+    
+}
+
+.click-insta{
+    font-size: 12px;
+    color: rgb(43, 43, 43);
+}
+
+.link-insta-2{
+    text-decoration: none;
+}
+
+.instalogo{
+width: 180px;
+padding-top: 20px;
+
+}
+   /* Footer */
+
+   .footer{
+    background: #2B1A16;
+    height: 190px;
+
+   }
+
+   .contenido-footer{
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.contenido-footer-left{
+    float: left;
+}
+
+.contenido-footer-rigth{
+    float: right;
+text-align: center;
+align-items: center;
+align-content: center;
+}
+
+
+.titulo-contacto{
+    font-weight:600;
+    color: #fff;
+}
+
+.textos-contacto{
+    padding-top: 10px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.textos-contacto>p{
+    padding-top: 5px;
+}
+
+.redes-img-2>a{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.derechos{
+    display: block;
+    text-align: center;
+    padding-top: 140px;
+    color: #927872;
+}
+
+
+@media (max-width: 1200px){
+
+/*Section1*/
+
+.link-producto{
+    text-decoration: none;
+}
+
+
+.titulo-productos h1{
+text-align: center;
+padding-top: 58px;
+padding-bottom: 30px;
+font-weight: 400;
+font-size: 32px;
+color: rgb(54, 54, 54);
+}
+
+.contenido-card{
+    width: 100%;
+    max-width: 1140px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.card-hover{
+    width: 192px;
+    height: 238px;
+    border-radius: 7px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.card-hover:hover{
+    transform: translateY(-15px);
+    transition: all .5s;
+}
+
+
+.card img{
+    width: 192px;
+    height: 137px;
+}
+
+.titulo-card{
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(31, 31, 31);
+    padding-top: 1px;
+}
+
+.precio{
+    color: rgb(34, 173, 238);
+    font-size: 14px;
+    padding-top: 1px;
+}
+
+.mas{
+    font-size: 16px;
+    color: rgb(180, 180, 180);
+}
+
+.ver-mas{
+    color: rgb(131, 131, 131);
+    font-size: 11px;
+    padding-top: 1px;
+    padding-bottom: 0;
+}
+
+.ver-mas-productos{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    
+}
+
+.ver-mas-2{
+    color: #2B1A16;
+    font-size: 17px;
+}
+
+.mas2{
+    font-size: 19px;
+    color: #301d19;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Section2*/
+
+.envio{
+    
+    background:  #2B1A16;
+}
+
+.contenido-envio{
+    padding-top: 35px;
+    padding-bottom: 45px;
+    display: flex;
+    width: 78%;
+    margin: auto;
+    align-items: center;
+}
+
+.textos-envio{
+    text-align:left;
+   
+}
+
+.titulo-envio{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+
+}
+
+.parrafo-envio{
+    padding-top: 20px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+    width: 53%;
+    color: #fff;
+}
+
+.envio-img{
+    width: 295px;
+    
+}
+
+.wave{
+    color: #2B1A16; 
+    padding: 0;
+ }
+
+
+ /*Section3-Instagram*/
+
+
+ 
+ .siguenos-insta{
+    background: #fff;
+    background-size: cover;
+    position: relative;
+}
+
+.titulo-insta h1{
+    text-align: center;
+    padding-top: 87px;
+   padding-bottom: 47px;
+   font-weight: 400;
+   font-size: 29px;
+   color: rgb(54, 54, 54);
+}
+
+.contenido-card-2{
+   width: 100%;
+   max-width: 1140px;
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+   padding-bottom: 77px;
+}
+
+.card-hover-2{
+   width: 215px;
+   height: 295px;
+   border-radius: 29px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+   overflow: hidden;
+   margin: 22px;
+   text-align: center;
+   transition: all .5s;
+   background: #fafafa;
+}
+
+.card-hover-2:hover{
+   transform: translateY(-15px);
+   transition: all .5s;
+}
+
+
+.card-2>img{
+   width: 215px;
+   height: 215px;
+}
+
+.icons-insta>img{
+   width: 175px;
+   padding-top: 15px;
+   padding-bottom: 1px;
+   
+}
+
+.click-insta{
+   font-size: 11px;
+   color: rgb(43, 43, 43);
+}
+
+.link-insta-2{
+   text-decoration: none;
+}
+
+.instalogo{
+width: 173px;
+padding-top: 18px;
+
+}
+
+}
+
+
+@media (max-width: 1080px){
+
+    /*Section1*/
+    
+    .link-producto{
+        text-decoration: none;
+    }
+    
+    
+    .titulo-productos h1{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 27px;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+    }
+    
+    .contenido-card{
+        width: 100%;
+        max-width: 950px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .card-hover{
+        width: 175px;
+        height: 218px;
+        border-radius: 6px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 18px;
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    .card-hover:hover{
+        transform: translateY(-15px);
+        transition: all .5s;
+    }
+    
+    
+    .card img{
+        width: 175px;
+        height: 125px;
+    }
+    
+    .titulo-card{
+        font-weight: 400;
+        font-size: 12px;
+        color: rgb(31, 31, 31);
+        padding-top: 1px;
+    }
+    
+    .precio{
+        color: rgb(34, 173, 238);
+        font-size: 13px;
+        padding-top: 1px;
+    }
+    
+    .mas{
+        font-size: 15px;
+        color: rgb(180, 180, 180);
+    }
+    
+    .ver-mas{
+        color: rgb(131, 131, 131);
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+    
+    .ver-mas-productos{
+        text-align: center;
+        padding-top: 14px;
+        padding-bottom: 11px;
+        
+    }
+    
+    .ver-mas-2{
+        color: #2B1A16;
+        font-size: 16px;
+    }
+    
+    .mas2{
+        font-size: 18px;
+        color: #301d19;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    /*Section2*/
+    
+    .envio{
+        
+        background:  #2B1A16;
+    }
+    
+    .contenido-envio{
+        padding-top: 32px;
+        padding-bottom: 41px;
+        display: flex;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+    }
+    
+    .textos-envio{
+        text-align:left;
+       
+    }
+    
+    .titulo-envio{
+        color: #fff;
+        font-size: 29px;
+        font-weight: 500;
+    
+    }
+    
+    .parrafo-envio{
+        padding-top: 18px;
+        font-weight: 300;
+        text-align: justify;
+        line-height: 28px;
+        width: 53%;
+        color: #fff;
+    }
+    
+    .envio-img{
+        width: 280px;
+        
+    }
+    
+    .wave{
+        color: #2B1A16; 
+        padding: 0;
+     }
+    
+    
+     /*Section3-Instagram*/
+    
+    
+     
+     .siguenos-insta{
+        background: #fff;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .titulo-insta h1{
+        text-align: center;
+        padding-top: 84px;
+       padding-bottom: 44px;
+       font-weight: 400;
+       font-size: 27px;
+       color: rgb(54, 54, 54);
+    }
+    
+    .contenido-card-2{
+       width: 100%;
+       max-width: 950px;
+       
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin: auto;
+       padding-bottom: 77px;
+    }
+    
+    .card-hover-2{
+       width: 193px;
+       height: 265px;
+       border-radius: 27px;
+       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+       overflow: hidden;
+       margin: 20px;
+       text-align: center;
+       transition: all .5s;
+       background: #fafafa;
+    }
+    
+    .card-hover-2:hover{
+       transform: translateY(-15px);
+       transition: all .5s;
+    }
+    
+    
+    .card-2>img{
+       width: 193px;
+       height: 193px;
+    }
+    
+    .icons-insta>img{
+       width: 160px;
+       padding-top: 13px;
+       padding-bottom: 1px;
+       
+    }
+    
+    .click-insta{
+       font-size: 10px;
+       color: rgb(43, 43, 43);
+    }
+    
+    .link-insta-2{
+       text-decoration: none;
+    }
+    
+    .instalogo{
+    width: 165px;
+    padding-top: 16px;
+    
+    }
+    
+    }
+
+    
+    
+    
+    @media (max-width: 980px){
+
+        /*Section1*/
+        
+        .link-producto{
+            text-decoration: none;
+        }
+        
+        
+        .titulo-productos h1{
+        text-align: center;
+        padding-top: 55px;
+        padding-bottom: 27px;
+        font-weight: 400;
+        font-size: 30px;
+        color: rgb(54, 54, 54);
+        }
+        
+        .contenido-card{
+            width: 100%;
+            max-width: 950px;
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: auto;
+        }
+        
+        .card-hover{
+            width: 175px;
+            height: 218px;
+            border-radius: 6px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            margin: 18px;
+            text-align: center;
+            transition: all .5s;
+        }
+        
+        .card-hover:hover{
+            transform: translateY(-15px);
+            transition: all .5s;
+        }
+        
+        
+        .card img{
+            width: 175px;
+            height: 125px;
+        }
+        
+        .titulo-card{
+            font-weight: 400;
+            font-size: 12px;
+            color: rgb(31, 31, 31);
+            padding-top: 1px;
+        }
+        
+        .precio{
+            color: rgb(34, 173, 238);
+            font-size: 13px;
+            padding-top: 1px;
+        }
+        
+        .mas{
+            font-size: 15px;
+            color: rgb(180, 180, 180);
+        }
+        
+        .ver-mas{
+            color: rgb(131, 131, 131);
+            font-size: 10px;
+            padding-bottom: 0;
+        }
+        
+        .ver-mas-productos{
+            text-align: center;
+            padding-top: 14px;
+            padding-bottom: 11px;
+            
+        }
+        
+        .ver-mas-2{
+            color: #2B1A16;
+            font-size: 16px;
+        }
+        
+        .mas2{
+            font-size: 18px;
+            color: #301d19;
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+        /*Section2*/
+        
+        .envio{
+            
+            background:  #2B1A16;
+        }
+        
+        .contenido-envio{
+            padding-top: 32px;
+            padding-bottom: 41px;
+            display: flex;
+            width: 80%;
+            margin: auto;
+            align-items: center;
+        }
+        
+        .textos-envio{
+            text-align:left;
+           
+        }
+        
+        .titulo-envio{
+            color: #fff;
+            font-size: 29px;
+            font-weight: 500;
+        
+        }
+        
+        .parrafo-envio{
+            padding-top: 18px;
+            font-weight: 300;
+            text-align: justify;
+            line-height: 28px;
+            width: 53%;
+            color: #fff;
+        }
+        
+        .envio-img{
+            width: 280px;
+            
+        }
+        
+        .wave{
+            color: #2B1A16; 
+            padding: 0;
+         }
+        
+        
+         /*Section3-Instagram*/
+        
+        
+         
+         .siguenos-insta{
+            background: #fff;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .titulo-insta h1{
+            text-align: center;
+            padding-top: 84px;
+           padding-bottom: 44px;
+           font-weight: 400;
+           font-size: 27px;
+           color: rgb(54, 54, 54);
+        }
+        
+        .contenido-card-2{
+           width: 100%;
+           max-width: 800px;
+           
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           margin: auto;
+           padding-bottom: 77px;
+        }
+        
+        .card-hover-2{
+           width: 193px;
+           height: 265px;
+           border-radius: 27px;
+           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+           overflow: hidden;
+           margin: 25px 50px;
+           text-align: center;
+           transition: all .5s;
+           background: #fafafa;
+        }
+        
+        .card-hover-2:hover{
+           transform: translateY(-15px);
+           transition: all .5s;
+        }
+        
+        
+        .card-2>img{
+           width: 193px;
+           height: 193px;
+        }
+        
+        .icons-insta>img{
+           width: 160px;
+           padding-top: 13px;
+           padding-bottom: 1px;
+           
+        }
+        
+        .click-insta{
+           font-size: 10px;
+           color: rgb(43, 43, 43);
+        }
+        
+        .link-insta-2{
+           text-decoration: none;
+        }
+        
+        .instalogo{
+        width: 165px;
+        padding-top: 16px;
+        margin: 0 30px;
+        
+        }
+        
+        }
+
+
+        @media (max-width: 900px){
+
+            /*Section1*/
+            
+            .link-producto{
+                text-decoration: none;
+            }
+            
+            
+            .titulo-productos h1{
+            text-align: center;
+            padding-top: 55px;
+            padding-bottom: 27px;
+            font-weight: 400;
+            font-size: 30px;
+            color: rgb(54, 54, 54);
+            }
+            
+            .contenido-card{
+                width: 100%;
+                max-width: 950px;
+                
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: auto;
+            }
+            
+            .card-hover{
+                width: 175px;
+                height: 218px;
+                border-radius: 6px;
+                box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                overflow: hidden;
+                margin: 18px;
+                text-align: center;
+                transition: all .5s;
+            }
+            
+            .card-hover:hover{
+                transform: translateY(-15px);
+                transition: all .5s;
+            }
+            
+            
+            .card img{
+                width: 175px;
+                height: 125px;
+            }
+            
+            .titulo-card{
+                font-weight: 400;
+                font-size: 12px;
+                color: rgb(31, 31, 31);
+                padding-top: 1px;
+            }
+            
+            .precio{
+                color: rgb(34, 173, 238);
+                font-size: 13px;
+                padding-top: 1px;
+            }
+            
+            .mas{
+                font-size: 15px;
+                color: rgb(180, 180, 180);
+            }
+            
+            .ver-mas{
+                color: rgb(131, 131, 131);
+                font-size: 10px;
+                padding-bottom: 0;
+            }
+            
+            .ver-mas-productos{
+                text-align: center;
+                padding-top: 14px;
+                padding-bottom: 11px;
+                
+            }
+            
+            .ver-mas-2{
+                color: #2B1A16;
+                font-size: 16px;
+            }
+            
+            .mas2{
+                font-size: 18px;
+                color: #301d19;
+                margin: 0;
+                padding: 0;
+            }
+            
+            
+            /*Section2*/
+            
+            .envio{
+                
+                background:  #2B1A16;
+            }
+            
+            .contenido-envio{
+                padding-top: 32px;
+                padding-bottom: 41px;
+                display: flex;
+                width: 80%;
+                margin: auto;
+                align-items: center;
+            }
+            
+            .textos-envio{
+                text-align:left;
+               
+            }
+            
+            .titulo-envio{
+                color: #fff;
+                font-size: 29px;
+                font-weight: 500;
+            
+            }
+            
+            .parrafo-envio{
+                padding-top: 18px;
+                font-weight: 300;
+                text-align: justify;
+                line-height: 22px;
+                width: 65%;
+                color: #fff;
+            }
+            
+            .envio-img{
+                width: 240px;
+                
+            }
+            
+            .wave{
+                color: #2B1A16; 
+                padding: 0;
+             }
+            
+            
+             /*Section3-Instagram*/
+            
+            
+             
+             .siguenos-insta{
+                background: #fff;
+                background-size: cover;
+                position: relative;
+            }
+            
+            .titulo-insta h1{
+                text-align: center;
+                padding-top: 84px;
+               padding-bottom: 44px;
+               font-weight: 400;
+               font-size: 27px;
+               color: rgb(54, 54, 54);
+            }
+            
+            .contenido-card-2{
+               width: 100%;
+               max-width: 800px;
+               
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+               margin: auto;
+               padding-bottom: 77px;
+            }
+            
+            .card-hover-2{
+               width: 193px;
+               height: 265px;
+               border-radius: 27px;
+               box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+               overflow: hidden;
+               margin: 25px 50px;
+               text-align: center;
+               transition: all .5s;
+               background: #fafafa;
+            }
+            
+            .card-hover-2:hover{
+               transform: translateY(-15px);
+               transition: all .5s;
+            }
+            
+            
+            .card-2>img{
+               width: 193px;
+               height: 193px;
+            }
+            
+            .icons-insta>img{
+               width: 160px;
+               padding-top: 13px;
+               padding-bottom: 1px;
+               
+            }
+            
+            .click-insta{
+               font-size: 10px;
+               color: rgb(43, 43, 43);
+            }
+            
+            .link-insta-2{
+               text-decoration: none;
+            }
+            
+            .instalogo{
+            width: 165px;
+            padding-top: 16px;
+            margin: 0 30px;
+            
+            }
+            
+            }
+
+
+
+        @media (max-width: 850px){
+
+            /*Section1*/
+            
+            .navigation{
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgb(17, 4, 2);
+                z-index: 10;
+                display: none;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+               
+                
+        
+            }
+        
+            .navigation.active{
+                display: flex;
+            }
+        
+            .navigation ul li{
+                display: flex;
+                text-align: center;
+             
+            }
+        
+            .navigation ul li:hover{
+                display: flex;
+                text-align: center;
+             
+            }
+        
+            .navigation ul li a{
+                text-align: center;
+                font-size: 20px;
+                font-weight: 500;
+                margin: auto;
+                padding-top: 30px;
+            }
+        
+            .navigation ul li a:hover{
+                text-align: center;
+                font-size: 20px;
+                font-weight: 500;
+                margin: auto;
+                padding-top: 30px;
+            }
+        
+            .toggleMenu{
+                position: relative;
+                width: 30px;
+                height: 30px;
+                background: url(../img/menu-icon.svg);
+                background-position: center;
+                background-size: 30px;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                z-index: 11;
+            }
+        
+            .toggleMenu.active{
+                background: url(../img/close.svg);
+                background-position: center;
+                background-size: 25px;
+                background-repeat: no-repeat;
+                }
+         
+            }
+
+
+            @media (max-width: 670px){
+
+                /*Section1*/
+                
+                .navigation{
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgb(17, 4, 2);
+                    z-index: 10;
+                    display: none;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    text-align: center;
+                   
+                    
+            
+                }
+            
+                .navigation.active{
+                    display: flex;
+                }
+            
+                .navigation ul li{
+                    display: flex;
+                    text-align: center;
+                 
+                }
+            
+                .navigation ul li:hover{
+                    display: flex;
+                    text-align: center;
+                 
+                }
+            
+                .navigation ul li a{
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin: auto;
+                    padding-top: 30px;
+                }
+            
+                .navigation ul li a:hover{
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin: auto;
+                    padding-top: 30px;
+                }
+            
+                .toggleMenu{
+                    position: relative;
+                    width: 30px;
+                    height: 30px;
+                    background: url(../img/menu-icon.svg);
+                    background-position: center;
+                    background-size: 30px;
+                    background-repeat: no-repeat;
+                    cursor: pointer;
+                    z-index: 11;
+                }
+            
+                .toggleMenu.active{
+                    background: url(../img/close.svg);
+                    background-position: center;
+                    background-size: 25px;
+                    background-repeat: no-repeat;
+                    }
+
+
+
+                     /*Section1*/
+            
+            .link-producto{
+                text-decoration: none;
+            }
+            
+            
+            .titulo-productos h1{
+            text-align: center;
+            padding-top: 55px;
+            padding-bottom: 27px;
+            font-weight: 400;
+            font-size: 30px;
+            color: rgb(54, 54, 54);
+            }
+            
+            .contenido-card{
+                width: 100%;
+                max-width: 600px;
+                
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: auto;
+            }
+            
+            .card-hover{
+                width: 175px;
+                height: 218px;
+                border-radius: 6px;
+                box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                overflow: hidden;
+                margin: 18px;
+                text-align: center;
+                transition: all .5s;
+            }
+            
+            .card-hover:hover{
+                transform: translateY(-15px);
+                transition: all .5s;
+            }
+            
+            
+            .card img{
+                width: 175px;
+                height: 125px;
+            }
+            
+            .titulo-card{
+                font-weight: 400;
+                font-size: 12px;
+                color: rgb(31, 31, 31);
+                padding-top: 1px;
+            }
+            
+            .precio{
+                color: rgb(34, 173, 238);
+                font-size: 13px;
+                padding-top: 1px;
+            }
+            
+            .mas{
+                font-size: 15px;
+                color: rgb(180, 180, 180);
+            }
+            
+            .ver-mas{
+                color: rgb(131, 131, 131);
+                font-size: 10px;
+                padding-bottom: 0;
+            }
+            
+            .ver-mas-productos{
+                text-align: center;
+                padding-top: 14px;
+                padding-bottom: 11px;
+                
+            }
+            
+            .ver-mas-2{
+                color: #2B1A16;
+                font-size: 16px;
+            }
+            
+            .mas2{
+                font-size: 18px;
+                color: #301d19;
+                margin: 0;
+                padding: 0;
+            }
+            
+            
+            /*Section2*/
+            
+            .envio{
+                
+                background:  #2B1A16;
+            }
+            
+            .contenido-envio{
+                padding-top: 32px;
+                padding-bottom: 41px;
+                display: flex;
+                width: 80%;
+                margin: auto;
+                align-items: center;
+            }
+            
+            .textos-envio{
+                text-align:left;
+               
+            }
+            
+            .titulo-envio{
+                color: #fff;
+                font-size: 29px;
+                font-weight: 500;
+            
+            }
+            
+            .parrafo-envio{
+                padding-top: 18px;
+                font-weight: 300;
+                text-align: justify;
+                line-height: 18px;
+                width: 80%;
+                color: #fff;
+            }
+            
+            .envio-img{
+                width: 210px;
+                
+            }
+            
+            .wave{
+                color: #2B1A16; 
+                padding: 0;
+             }
+            
+            
+             /*Section3-Instagram*/
+            
+            
+             
+             .siguenos-insta{
+                background: #fff;
+                background-size: cover;
+                position: relative;
+            }
+            
+            .titulo-insta h1{
+                text-align: center;
+                padding-top: 84px;
+               padding-bottom: 44px;
+               font-weight: 400;
+               font-size: 27px;
+               color: rgb(54, 54, 54);
+            }
+            
+            .contenido-card-2{
+               width: 100%;
+               max-width: 800px;
+               
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+               margin: auto;
+               padding-bottom: 77px;
+            }
+            
+            .card-hover-2{
+               width: 193px;
+               height: 265px;
+               border-radius: 27px;
+               box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+               overflow: hidden;
+               margin: 25px 50px;
+               text-align: center;
+               transition: all .5s;
+               background: #fafafa;
+            }
+            
+            .card-hover-2:hover{
+               transform: translateY(-15px);
+               transition: all .5s;
+            }
+            
+            
+            .card-2>img{
+               width: 193px;
+               height: 193px;
+            }
+            
+            .icons-insta>img{
+               width: 160px;
+               padding-top: 13px;
+               padding-bottom: 1px;
+               
+            }
+            
+            .click-insta{
+               font-size: 10px;
+               color: rgb(43, 43, 43);
+            }
+            
+            .link-insta-2{
+               text-decoration: none;
+            }
+            
+            .instalogo{
+            width: 165px;
+            padding-top: 16px;
+            margin: 0 30px;
+            
+            }
+             
+                }
+
+
+                @media (max-width: 615px){
+
+                    /*Section1*/
+                    
+                    .navigation{
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: rgb(17, 4, 2);
+                        z-index: 10;
+                        display: none;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        text-align: center;
+                       
+                        
+                
+                    }
+                
+                    .navigation.active{
+                        display: flex;
+                    }
+                
+                    .navigation ul li{
+                        display: flex;
+                        text-align: center;
+                     
+                    }
+                
+                    .navigation ul li:hover{
+                        display: flex;
+                        text-align: center;
+                     
+                    }
+                
+                    .navigation ul li a{
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: 500;
+                        margin: auto;
+                        padding-top: 30px;
+                    }
+                
+                    .navigation ul li a:hover{
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: 500;
+                        margin: auto;
+                        padding-top: 30px;
+                    }
+                
+                    .toggleMenu{
+                        position: relative;
+                        width: 30px;
+                        height: 30px;
+                        background: url(../img/menu-icon.svg);
+                        background-position: center;
+                        background-size: 30px;
+                        background-repeat: no-repeat;
+                        cursor: pointer;
+                        z-index: 11;
+                    }
+                
+                    .toggleMenu.active{
+                        background: url(../img/close.svg);
+                        background-position: center;
+                        background-size: 25px;
+                        background-repeat: no-repeat;
+                        }
+    
+    
+    
+                         /*Section1*/
+                
+                .link-producto{
+                    text-decoration: none;
+                }
+                
+                
+                .titulo-productos h1{
+                text-align: center;
+                padding-top: 55px;
+                padding-bottom: 27px;
+                font-weight: 400;
+                font-size: 30px;
+                color: rgb(54, 54, 54);
+                }
+                
+                .contenido-card{
+                    width: 100%;
+                    max-width: 600px;
+                    
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: auto;
+                }
+                
+                .card-hover{
+                    width: 175px;
+                    height: 218px;
+                    border-radius: 6px;
+                    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                    overflow: hidden;
+                    margin: 18px;
+                    text-align: center;
+                    transition: all .5s;
+                }
+                
+                .card-hover:hover{
+                    transform: translateY(-15px);
+                    transition: all .5s;
+                }
+                
+                
+                .card img{
+                    width: 175px;
+                    height: 125px;
+                }
+                
+                .titulo-card{
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: rgb(31, 31, 31);
+                    padding-top: 1px;
+                }
+                
+                .precio{
+                    color: rgb(34, 173, 238);
+                    font-size: 13px;
+                    padding-top: 1px;
+                }
+                
+                .mas{
+                    font-size: 15px;
+                    color: rgb(180, 180, 180);
+                }
+                
+                .ver-mas{
+                    color: rgb(131, 131, 131);
+                    font-size: 10px;
+                    padding-bottom: 0;
+                }
+                
+                .ver-mas-productos{
+                    text-align: center;
+                    padding-top: 14px;
+                    padding-bottom: 11px;
+                    
+                }
+                
+                .ver-mas-2{
+                    color: #2B1A16;
+                    font-size: 16px;
+                }
+                
+                .mas2{
+                    font-size: 18px;
+                    color: #301d19;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                
+                /*Section2*/
+                
+                .envio{
+                    
+                    background:  #2B1A16;
+                }
+                
+                .contenido-envio{
+                    padding-top: 32px;
+                    padding-bottom: 41px;
+                    display: flex;
+                    width: 80%;
+                    margin: auto;
+                    align-items: center;
+                }
+                
+                .textos-envio{
+                    text-align:left;
+                   
+                }
+                
+                .titulo-envio{
+                    color: #fff;
+                    font-size: 29px;
+                    font-weight: 500;
+                
+                }
+                
+                .parrafo-envio{
+                    padding-top: 18px;
+                    font-weight: 300;
+                    text-align: justify;
+                    line-height: 18px;
+                    width: 80%;
+                    color: #fff;
+                }
+                
+                .envio-img{
+                    width: 210px;
+                    
+                }
+                
+                .wave{
+                    color: #2B1A16; 
+                    padding: 0;
+                 }
+                
+                
+                 /*Section3-Instagram*/
+                
+                
+                 
+                 .siguenos-insta{
+                    background: #fff;
+                    background-size: cover;
+                    position: relative;
+                }
+                
+                .titulo-insta h1{
+                    text-align: center;
+                    padding-top: 84px;
+                   padding-bottom: 44px;
+                   font-weight: 400;
+                   font-size: 27px;
+                   color: rgb(54, 54, 54);
+                }
+                
+                .contenido-card-2{
+                   width: 100%;
+                   max-width: 800px;
+                   
+                   display: flex;
+                   flex-wrap: wrap;
+                   justify-content: center;
+                   margin: auto;
+                   padding-bottom: 77px;
+                }
+                
+                .card-hover-2{
+                   width: 193px;
+                   height: 265px;
+                   border-radius: 27px;
+                   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                   overflow: hidden;
+                   margin: 25px 50px;
+                   text-align: center;
+                   transition: all .5s;
+                   background: #fafafa;
+                }
+                
+                .card-hover-2:hover{
+                   transform: translateY(-15px);
+                   transition: all .5s;
+                }
+                
+                
+                .card-2>img{
+                   width: 193px;
+                   height: 193px;
+                }
+                
+                .icons-insta>img{
+                   width: 160px;
+                   padding-top: 13px;
+                   padding-bottom: 1px;
+                   
+                }
+                
+                .click-insta{
+                   font-size: 10px;
+                   color: rgb(43, 43, 43);
+                }
+                
+                .link-insta-2{
+                   text-decoration: none;
+                }
+                
+                .instalogo{
+                width: 165px;
+                padding-top: 16px;
+                margin: 0 30px;
+                
+                }
+
+
+                 /* Footer */
+
+   .footer{
+    background: #2B1A16;
+    height: 250px;
+
+   }
+
+   .contenido-footer{
+    padding-top: 3px;
+    width: 80%;
+    margin: auto;
+}
+
+.contenido-footer-left{
+    float:none;
+    text-align: center;
+}
+
+.contenido-footer-rigth{
+    float: none;
+text-align: center;
+align-items: center;
+align-content: center;
+padding-top: 20px;
+}
+
+
+.titulo-contacto{
+    font-weight:600;
+    color: #fff;
+}
+
+.textos-contacto{
+    padding-top: 10px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.textos-contacto>p{
+    padding-top: 5px;
+}
+
+.redes-img-2>a{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.derechos{
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    color: #927872;
+    font-size: 12px;
+}
+                 
+                    }
+
+
+
+                @media (max-width: 603px){
+
+                    /*Section1*/
+                    
+                    .navigation{
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: rgb(17, 4, 2);
+                        z-index: 10;
+                        display: none;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        text-align: center;
+                       
+                        
+                
+                    }
+                
+                    .navigation.active{
+                        display: flex;
+                    }
+                
+                    .navigation ul li{
+                        display: flex;
+                        text-align: center;
+                     
+                    }
+                
+                    .navigation ul li:hover{
+                        display: flex;
+                        text-align: center;
+                     
+                    }
+                
+                    .navigation ul li a{
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: 500;
+                        margin: auto;
+                        padding-top: 30px;
+                    }
+                
+                    .navigation ul li a:hover{
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: 500;
+                        margin: auto;
+                        padding-top: 30px;
+                    }
+                
+                    .toggleMenu{
+                        position: relative;
+                        width: 30px;
+                        height: 30px;
+                        background: url(../img/menu-icon.svg);
+                        background-position: center;
+                        background-size: 30px;
+                        background-repeat: no-repeat;
+                        cursor: pointer;
+                        z-index: 11;
+                    }
+                
+                    .toggleMenu.active{
+                        background: url(../img/close.svg);
+                        background-position: center;
+                        background-size: 25px;
+                        background-repeat: no-repeat;
+                        }
+    
+    
+    
+                         /*Section1*/
+                
+                .link-producto{
+                    text-decoration: none;
+                }
+                
+                
+                .titulo-productos h1{
+                text-align: center;
+                padding-top: 55px;
+                padding-bottom: 27px;
+                font-weight: 400;
+                font-size: 30px;
+                color: rgb(54, 54, 54);
+                }
+                
+                .contenido-card{
+                    width: 100%;
+                    max-width: 600px;
+                    
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: auto;
+                }
+                
+                .card-hover{
+                    width: 175px;
+                    height: 218px;
+                    border-radius: 6px;
+                    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                    overflow: hidden;
+                    margin: 18px;
+                    text-align: center;
+                    transition: all .5s;
+                }
+                
+                .card-hover:hover{
+                    transform: translateY(-15px);
+                    transition: all .5s;
+                }
+                
+                
+                .card img{
+                    width: 175px;
+                    height: 125px;
+                }
+                
+                .titulo-card{
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: rgb(31, 31, 31);
+                    padding-top: 1px;
+                }
+                
+                .precio{
+                    color: rgb(34, 173, 238);
+                    font-size: 13px;
+                    padding-top: 1px;
+                }
+                
+                .mas{
+                    font-size: 15px;
+                    color: rgb(180, 180, 180);
+                }
+                
+                .ver-mas{
+                    color: rgb(131, 131, 131);
+                    font-size: 10px;
+                    padding-bottom: 0;
+                }
+                
+                .ver-mas-productos{
+                    text-align: center;
+                    padding-top: 14px;
+                    padding-bottom: 11px;
+                    
+                }
+                
+                .ver-mas-2{
+                    color: #2B1A16;
+                    font-size: 16px;
+                }
+                
+                .mas2{
+                    font-size: 18px;
+                    color: #301d19;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                
+                /*Section2*/
+                
+                .envio{
+                    
+                    background:  #2B1A16;
+                }
+                
+                .contenido-envio{
+                    padding-top: 32px;
+                    padding-bottom: 41px;
+                    display: flex;
+                    width: 80%;
+                    margin: auto;
+                    align-items: center;
+                }
+                
+                .textos-envio{
+                    text-align:left;
+                   
+                }
+                
+                .titulo-envio{
+                    color: #fff;
+                    font-size: 29px;
+                    font-weight: 500;
+                
+                }
+                
+                .parrafo-envio{
+                    padding-top: 18px;
+                    font-weight: 300;
+                    text-align: justify;
+                    line-height: 18px;
+                    width: 80%;
+                    color: #fff;
+                }
+                
+                .envio-img{
+                    width: 210px;
+                    
+                }
+                
+                .wave{
+                    color: #2B1A16; 
+                    padding: 0;
+                 }
+                
+                
+                 /*Section3-Instagram*/
+                
+                
+                 
+                 .siguenos-insta{
+                    background: #fff;
+                    background-size: cover;
+                    position: relative;
+                }
+                
+                .titulo-insta h1{
+                    text-align: center;
+                    padding-top: 84px;
+                   padding-bottom: 44px;
+                   font-weight: 400;
+                   font-size: 27px;
+                   color: rgb(54, 54, 54);
+                }
+                
+                .contenido-card-2{
+                   width: 100%;
+                   max-width: 800px;
+                   
+                   display: flex;
+                   flex-wrap: wrap;
+                   justify-content: center;
+                   margin: auto;
+                   padding-bottom: 77px;
+                }
+                
+                .card-hover-2{
+                   width: 193px;
+                   height: 265px;
+                   border-radius: 27px;
+                   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                   overflow: hidden;
+                   margin: 25px 25px;
+                   text-align: center;
+                   transition: all .5s;
+                   background: #fafafa;
+                }
+                
+                .card-hover-2:hover{
+                   transform: translateY(-15px);
+                   transition: all .5s;
+                }
+                
+                
+                .card-2>img{
+                   width: 193px;
+                   height: 193px;
+                }
+                
+                .icons-insta>img{
+                   width: 160px;
+                   padding-top: 13px;
+                   padding-bottom: 1px;
+                   
+                }
+                
+                .click-insta{
+                   font-size: 10px;
+                   color: rgb(43, 43, 43);
+                }
+                
+                .link-insta-2{
+                   text-decoration: none;
+                }
+                
+                .instalogo{
+                width: 165px;
+                padding-top: 16px;
+                margin: 0 30px;
+                
+                }
+                 
+                    }
+
+
+
+
+
+                    @media (max-width: 600px){
+
+                        /*Section1*/
+                        
+                        .navigation{
+                            position: fixed;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background: rgb(17, 4, 2);
+                            z-index: 10;
+                            display: none;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            text-align: center;
+                           
+                            
+                    
+                        }
+                    
+                        .navigation.active{
+                            display: flex;
+                        }
+                    
+                        .navigation ul li{
+                            display: flex;
+                            text-align: center;
+                         
+                        }
+                    
+                        .navigation ul li:hover{
+                            display: flex;
+                            text-align: center;
+                         
+                        }
+                    
+                        .navigation ul li a{
+                            text-align: center;
+                            font-size: 20px;
+                            font-weight: 500;
+                            margin: auto;
+                            padding-top: 30px;
+                        }
+                    
+                        .navigation ul li a:hover{
+                            text-align: center;
+                            font-size: 20px;
+                            font-weight: 500;
+                            margin: auto;
+                            padding-top: 30px;
+                        }
+                    
+                        .toggleMenu{
+                            position: relative;
+                            width: 30px;
+                            height: 30px;
+                            background: url(../img/menu-icon.svg);
+                            background-position: center;
+                            background-size: 30px;
+                            background-repeat: no-repeat;
+                            cursor: pointer;
+                            z-index: 11;
+                        }
+                    
+                        .toggleMenu.active{
+                            background: url(../img/close.svg);
+                            background-position: center;
+                            background-size: 25px;
+                            background-repeat: no-repeat;
+                            }
+        
+        
+        
+                             /*Section1*/
+                    
+                    .link-producto{
+                        text-decoration: none;
+                    }
+                    
+                    
+                    .titulo-productos h1{
+                    text-align: center;
+                    padding-top: 55px;
+                    padding-bottom: 27px;
+                    font-weight: 400;
+                    font-size: 30px;
+                    color: rgb(54, 54, 54);
+                    }
+                    
+                    .contenido-card{
+                        width: 100%;
+                        max-width: 600px;
+                        
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        margin: auto;
+                    }
+                    
+                    .card-hover{
+                        width: 175px;
+                        height: 218px;
+                        border-radius: 6px;
+                        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                        overflow: hidden;
+                        margin: 18px;
+                        text-align: center;
+                        transition: all .5s;
+                    }
+                    
+                    .card-hover:hover{
+                        transform: translateY(-15px);
+                        transition: all .5s;
+                    }
+                    
+                    
+                    .card img{
+                        width: 175px;
+                        height: 125px;
+                    }
+                    
+                    .titulo-card{
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: rgb(31, 31, 31);
+                        padding-top: 1px;
+                    }
+                    
+                    .precio{
+                        color: rgb(34, 173, 238);
+                        font-size: 13px;
+                        padding-top: 1px;
+                    }
+                    
+                    .mas{
+                        font-size: 15px;
+                        color: rgb(180, 180, 180);
+                    }
+                    
+                    .ver-mas{
+                        color: rgb(131, 131, 131);
+                        font-size: 10px;
+                        padding-bottom: 0;
+                    }
+                    
+                    .ver-mas-productos{
+                        text-align: center;
+                        padding-top: 14px;
+                        padding-bottom: 11px;
+                        
+                    }
+                    
+                    .ver-mas-2{
+                        color: #2B1A16;
+                        font-size: 16px;
+                    }
+                    
+                    .mas2{
+                        font-size: 18px;
+                        color: #301d19;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    
+                    /*Section2*/
+                    
+                    .envio{
+                        
+                        background:  #2B1A16;
+                    }
+                    
+                    .contenido-envio{
+                        padding-top: 32px;
+                        padding-bottom: 41px;
+                        display: flex;
+                        width: 80%;
+                        margin: auto;
+                        align-items: center;
+                    }
+                    
+                    .textos-envio{
+                        text-align:left;
+                       
+                    }
+                    
+                    .titulo-envio{
+                        color: #fff;
+                        font-size: 29px;
+                        font-weight: 500;
+                    
+                    }
+                    
+                    .parrafo-envio{
+                        padding-top: 18px;
+                        font-weight: 300;
+                        text-align: justify;
+                        line-height: 18px;
+                        width: 80%;
+                        color: #fff;
+                    }
+                    
+                    .envio-img{
+                        width: 190px;
+                        
+                    }
+                    
+                    .wave{
+                        color: #2B1A16; 
+                        padding: 0;
+                     }
+                    
+                    
+                     /*Section3-Instagram*/
+                    
+                    
+                     
+                     .siguenos-insta{
+                        background: #fff;
+                        background-size: cover;
+                        position: relative;
+                    }
+                    
+                    .titulo-insta h1{
+                        text-align: center;
+                        padding-top: 84px;
+                       padding-bottom: 44px;
+                       font-weight: 400;
+                       font-size: 27px;
+                       color: rgb(54, 54, 54);
+                    }
+                    
+                    .contenido-card-2{
+                       width: 100%;
+                       max-width: 800px;
+                       
+                       display: flex;
+                       flex-wrap: wrap;
+                       justify-content: center;
+                       margin: auto;
+                       padding-bottom: 77px;
+                    }
+                    
+                    .card-hover-2{
+                       width: 193px;
+                       height: 265px;
+                       border-radius: 27px;
+                       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                       overflow: hidden;
+                       margin: 25px 25px;
+                       text-align: center;
+                       transition: all .5s;
+                       background: #fafafa;
+                    }
+                    
+                    .card-hover-2:hover{
+                       transform: translateY(-15px);
+                       transition: all .5s;
+                    }
+                    
+                    
+                    .card-2>img{
+                       width: 193px;
+                       height: 193px;
+                    }
+                    
+                    .icons-insta>img{
+                       width: 160px;
+                       padding-top: 13px;
+                       padding-bottom: 1px;
+                       
+                    }
+                    
+                    .click-insta{
+                       font-size: 10px;
+                       color: rgb(43, 43, 43);
+                    }
+                    
+                    .link-insta-2{
+                       text-decoration: none;
+                    }
+                    
+                    .instalogo{
+                    width: 165px;
+                    padding-top: 16px;
+                    margin: 0 30px;
+                    
+                    }
+                     
+                        }
+
+
+
+                        @media (max-width: 555px){
+
+
+
+                            .contacto-top{
+                                font-size:10px;
+                                font-weight: 300;
+                                color: #ffffff;
+                                align-items: center;
+                                width: 90%;
+                                padding: 3px 0;
+                                margin: auto;
+                                height: 30px;
+                                align-self: center;
+                                
+                            }
+                            
+                            .header1{
+                                background: #0c0402;
+                                height: 25px;
+                            }
+                            
+                            
+                            .cel-top{
+                                padding-right: 20px;
+                            }
+                            
+                            .contacto-top-left{
+                                float: left;
+                                display: flex;
+                                align-items: center;
+                            }
+                            
+                            .contacto-top-right{
+                                float: right;
+                                display: flex;
+                            }
+                            
+                            .redes-img>a{
+                                padding-left: 10px;
+                                font-size: 11px;
+                            }
+                            
+                            
+                            
+                            .icotel{
+                                padding-right: 12px;
+                            }
+                            
+                            .instagram{
+                                color: #ffffff;
+                                transition: .5s;
+                            }
+                            
+                            .instagram:hover{
+                                color: #cc398f;
+                                transition: .5s;
+                            }
+                            
+                            .facebook{
+                                    color: #ffffff;
+                                    transition: .5s;
+                            }
+                            
+                            .facebook:hover{
+                                color: #4195e4;
+                                transition: .5s;
+                            }
+                            
+                            .twitter{
+                                color: #ffffff;
+                                transition: .5s;
+                            }
+                            
+                            .twitter:hover{
+                                color: #39cadd;
+                                transition: .5s;
+                            }
+                            
+                            .pinterest{
+                                color: #ffffff;
+                                transition: .5s;
+                            }
+                            
+                            .pinterest:hover{
+                                color: #cc2121;
+                                transition: .5s;
+                            }
+
+                            /*Section1*/
+                            
+                            .navigation{
+                                position: fixed;
+                                top: 0;
+                                left: 0;
+                                right: 0;
+                                bottom: 0;
+                                background: rgb(17, 4, 2);
+                                z-index: 10;
+                                display: none;
+                                justify-content: center;
+                                align-items: center;
+                                flex-direction: column;
+                                text-align: center;
+                               
+                                
+                        
+                            }
+                        
+                            .navigation.active{
+                                display: flex;
+                            }
+                        
+                            .navigation ul li{
+                                display: flex;
+                                text-align: center;
+                             
+                            }
+                        
+                            .navigation ul li:hover{
+                                display: flex;
+                                text-align: center;
+                             
+                            }
+                        
+                            .navigation ul li a{
+                                text-align: center;
+                                font-size: 20px;
+                                font-weight: 500;
+                                margin: auto;
+                                padding-top: 30px;
+                            }
+                        
+                            .navigation ul li a:hover{
+                                text-align: center;
+                                font-size: 20px;
+                                font-weight: 500;
+                                margin: auto;
+                                padding-top: 30px;
+                            }
+                        
+                            .toggleMenu{
+                                position: relative;
+                                width: 30px;
+                                height: 30px;
+                                background: url(../img/menu-icon.svg);
+                                background-position: center;
+                                background-size: 30px;
+                                background-repeat: no-repeat;
+                                cursor: pointer;
+                                z-index: 11;
+                            }
+                        
+                            .toggleMenu.active{
+                                background: url(../img/close.svg);
+                                background-position: center;
+                                background-size: 25px;
+                                background-repeat: no-repeat;
+                                }
+
+
+/*Port1*/
+
+.port1{
+    background: url(../img/port4.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 430px;
+}
+
+.cont-port{
+  width: 87%;
+  margin: auto;
+}
+
+.textos-port{
+    color: #ffffff;
+    font-size: 2em;
+    padding-top: 60px;
+    margin: auto;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.616);
+}
+
+.btn{
+  border-radius: 40px;
+  text-decoration: none;
+  display: block;
+  padding: 17px 7px;
+}
+
+.btn-uno{
+  margin-top: 22px;
+  color: #fff;
+  background-color: rgb(150, 18, 18);
+  font-size: 1.1em;
+  text-align: center;
+  width: 165px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+  transition: .5s;
+}
+
+.btn-uno:hover{
+  margin-top: 22px;
+  color: #fff;
+  background-color: rgb(204, 25, 25);
+  font-size: 1.1em;
+  text-align: center;
+  width: 165px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+  transition: .5s;
+}
+
+            
+            
+            
+                                 /*Section1*/
+                        
+                        .link-producto{
+                            text-decoration: none;
+                        }
+                        
+                        
+                        .titulo-productos h1{
+                        text-align: center;
+                        padding-top: 55px;
+                        padding-bottom: 27px;
+                        font-weight: 400;
+                        font-size: 30px;
+                        color: rgb(54, 54, 54);
+                        }
+                        
+                        .contenido-card{
+                            width: 100%;
+                            max-width: 600px;
+                            
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            margin: auto;
+                        }
+                        
+                        .card-hover{
+                            width: 175px;
+                            height: 218px;
+                            border-radius: 6px;
+                            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                            overflow: hidden;
+                            margin: 18px;
+                            text-align: center;
+                            transition: all .5s;
+                        }
+                        
+                        .card-hover:hover{
+                            transform: translateY(-15px);
+                            transition: all .5s;
+                        }
+                        
+                        
+                        .card img{
+                            width: 175px;
+                            height: 125px;
+                        }
+                        
+                        .titulo-card{
+                            font-weight: 400;
+                            font-size: 12px;
+                            color: rgb(31, 31, 31);
+                            padding-top: 1px;
+                        }
+                        
+                        .precio{
+                            color: rgb(34, 173, 238);
+                            font-size: 13px;
+                            padding-top: 1px;
+                        }
+                        
+                        .mas{
+                            font-size: 15px;
+                            color: rgb(180, 180, 180);
+                        }
+                        
+                        .ver-mas{
+                            color: rgb(131, 131, 131);
+                            font-size: 10px;
+                            padding-bottom: 0;
+                        }
+                        
+                        .ver-mas-productos{
+                            text-align: center;
+                            padding-top: 14px;
+                            padding-bottom: 11px;
+                            
+                        }
+                        
+                        .ver-mas-2{
+                            color: #2B1A16;
+                            font-size: 16px;
+                        }
+                        
+                        .mas2{
+                            font-size: 18px;
+                            color: #301d19;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        
+                        /*Section2*/
+                        
+                        .envio{
+                            
+                            background:  #2B1A16;
+                        }
+                        
+                        .contenido-envio{
+                            padding-top: 32px;
+                            padding-bottom: 41px;
+                            display: flex;
+                            width: 80%;
+                            margin: auto;
+                            align-items: center;
+                        }
+                        
+                        .textos-envio{
+                            text-align:left;
+                           
+                        }
+                        
+                        .titulo-envio{
+                            color: #fff;
+                            font-size: 27px;
+                            font-weight: 500;
+                        
+                        }
+                        
+                        .parrafo-envio{
+                            padding-top: 18px;
+                            font-weight: 300;
+                            text-align: justify;
+                            line-height: 19px;
+                            width: 80%;
+                            color: #fff;
+                            font-size: 11px;
+                        }
+                        
+                        .envio-img{
+                            width: 150px;
+                            
+                        }
+                        
+                        .wave{
+                            color: #2B1A16; 
+                            padding: 0;
+                         }
+                        
+                        
+                         /*Section3-Instagram*/
+                        
+                        
+                         
+                         .siguenos-insta{
+                            background: #fff;
+                            background-size: cover;
+                            position: relative;
+                        }
+                        
+                        .titulo-insta h1{
+                            text-align: center;
+                            padding-top: 84px;
+                           padding-bottom: 44px;
+                           font-weight: 400;
+                           font-size: 27px;
+                           color: rgb(54, 54, 54);
+                        }
+                        
+                        .contenido-card-2{
+                           width: 100%;
+                           max-width: 800px;
+                           
+                           display: flex;
+                           flex-wrap: wrap;
+                           justify-content: center;
+                           margin: auto;
+                           padding-bottom: 77px;
+                        }
+                        
+                        .card-hover-2{
+                           width: 193px;
+                           height: 265px;
+                           border-radius: 27px;
+                           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                           overflow: hidden;
+                           margin: 25px 25px;
+                           text-align: center;
+                           transition: all .5s;
+                           background: #fafafa;
+                        }
+                        
+                        .card-hover-2:hover{
+                           transform: translateY(-15px);
+                           transition: all .5s;
+                        }
+                        
+                        
+                        .card-2>img{
+                           width: 193px;
+                           height: 193px;
+                        }
+                        
+                        .icons-insta>img{
+                           width: 160px;
+                           padding-top: 13px;
+                           padding-bottom: 1px;
+                           
+                        }
+                        
+                        .click-insta{
+                           font-size: 10px;
+                           color: rgb(43, 43, 43);
+                        }
+                        
+                        .link-insta-2{
+                           text-decoration: none;
+                        }
+                        
+                        .instalogo{
+                        width: 165px;
+                        padding-top: 16px;
+                        margin: 0 30px;
+                        
+                        }
+                         
+                            }
+
+
+                            @media (max-width: 503px){
+
+                                /*Section1*/
+                                
+                                .navigation{
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    background: rgb(17, 4, 2);
+                                    z-index: 10;
+                                    display: none;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    text-align: center;
+                                   
+                                    
+                            
+                                }
+                            
+                                .navigation.active{
+                                    display: flex;
+                                }
+                            
+                                .navigation ul li{
+                                    display: flex;
+                                    text-align: center;
+                                 
+                                }
+                            
+                                .navigation ul li:hover{
+                                    display: flex;
+                                    text-align: center;
+                                 
+                                }
+                            
+                                .navigation ul li a{
+                                    text-align: center;
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                    margin: auto;
+                                    padding-top: 30px;
+                                }
+                            
+                                .navigation ul li a:hover{
+                                    text-align: center;
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                    margin: auto;
+                                    padding-top: 30px;
+                                }
+                            
+                                .toggleMenu{
+                                    position: relative;
+                                    width: 30px;
+                                    height: 30px;
+                                    background: url(../img/menu-icon.svg);
+                                    background-position: center;
+                                    background-size: 30px;
+                                    background-repeat: no-repeat;
+                                    cursor: pointer;
+                                    z-index: 11;
+                                }
+                            
+                                .toggleMenu.active{
+                                    background: url(../img/close.svg);
+                                    background-position: center;
+                                    background-size: 25px;
+                                    background-repeat: no-repeat;
+                                    }
+    
+    
+    /*Port1*/
+    
+    .port1{
+        background: url(../img/port4.jpg);
+        background-size: cover;
+        background-position: bottom;
+        height: 430px;
+    }
+    
+    .cont-port{
+      width: 87%;
+      margin: auto;
+    }
+    
+    .textos-port{
+        color: #ffffff;
+        font-size: 2em;
+        padding-top: 60px;
+        margin: auto;
+        text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.616);
+    }
+    
+    .btn{
+      border-radius: 40px;
+      text-decoration: none;
+      display: block;
+      padding: 17px 7px;
+    }
+    
+    .btn-uno{
+      margin-top: 22px;
+      color: #fff;
+      background-color: rgb(150, 18, 18);
+      font-size: 1.1em;
+      text-align: center;
+      width: 165px;
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+      transition: .5s;
+    }
+    
+    .btn-uno:hover{
+      margin-top: 22px;
+      color: #fff;
+      background-color: rgb(204, 25, 25);
+      font-size: 1.1em;
+      text-align: center;
+      width: 165px;
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+      transition: .5s;
+    }
+    
+                
+                
+                
+                                     /*Section1*/
+                            
+                            .link-producto{
+                                text-decoration: none;
+                            }
+                            
+                            
+                            .titulo-productos h1{
+                            text-align: center;
+                            padding-top: 55px;
+                            padding-bottom: 27px;
+                            font-weight: 400;
+                            font-size: 30px;
+                            color: rgb(54, 54, 54);
+                            }
+                            
+                            .contenido-card{
+                                width: 100%;
+                                max-width: 600px;
+                                
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                margin: auto;
+                            }
+                            
+                            .card-hover{
+                                width: 175px;
+                                height: 218px;
+                                border-radius: 6px;
+                                box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                                overflow: hidden;
+                                margin: 18px;
+                                text-align: center;
+                                transition: all .5s;
+                            }
+                            
+                            .card-hover:hover{
+                                transform: translateY(-15px);
+                                transition: all .5s;
+                            }
+                            
+                            
+                            .card img{
+                                width: 175px;
+                                height: 125px;
+                            }
+                            
+                            .titulo-card{
+                                font-weight: 400;
+                                font-size: 12px;
+                                color: rgb(31, 31, 31);
+                                padding-top: 1px;
+                            }
+                            
+                            .precio{
+                                color: rgb(34, 173, 238);
+                                font-size: 13px;
+                                padding-top: 1px;
+                            }
+                            
+                            .mas{
+                                font-size: 15px;
+                                color: rgb(180, 180, 180);
+                            }
+                            
+                            .ver-mas{
+                                color: rgb(131, 131, 131);
+                                font-size: 10px;
+                                padding-bottom: 0;
+                            }
+                            
+                            .ver-mas-productos{
+                                text-align: center;
+                                padding-top: 14px;
+                                padding-bottom: 11px;
+                                
+                            }
+                            
+                            .ver-mas-2{
+                                color: #2B1A16;
+                                font-size: 16px;
+                            }
+                            
+                            .mas2{
+                                font-size: 18px;
+                                color: #301d19;
+                                margin: 0;
+                                padding: 0;
+                            }
+                            
+                            
+                            /*Section2*/
+                            
+                            .envio{
+                                
+                                background:  #2B1A16;
+                            }
+                            
+                            .contenido-envio{
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                display: block;
+                                width: 80%;
+                                margin: auto;
+                                align-items: center;
+                                text-align: center;
+                            }
+                            
+                            .textos-envio{
+                                text-align:center;
+                               
+                            }
+                            
+                            .titulo-envio{
+                                color: #fff;
+                                font-size: 27px;
+                                font-weight: 500;
+                            
+                            }
+                            
+                            .parrafo-envio{
+                                padding-top: 18px;
+                                font-weight: 300;
+                                text-align: center;
+                                line-height: 19px;
+                                width: 100%;
+                                color: #fff;
+                                font-size: 11px;
+                            }
+                            
+                            .envio-img{
+                                width: 150px;
+                                padding-top: 20px;
+                               
+
+                                
+                            }
+                            
+                            .wave{
+                                color: #2B1A16; 
+                                padding: 0;
+                             }
+                            
+                            
+                             /*Section3-Instagram*/
+                            
+                            
+                             
+                             .siguenos-insta{
+                                background: #fff;
+                                background-size: cover;
+                                position: relative;
+                            }
+                            
+                            .titulo-insta h1{
+                                text-align: center;
+                                padding-top: 84px;
+                               padding-bottom: 44px;
+                               font-weight: 400;
+                               font-size: 27px;
+                               color: rgb(54, 54, 54);
+                            }
+                            
+                            .contenido-card-2{
+                               width: 100%;
+                               max-width: 800px;
+                               
+                               display: flex;
+                               flex-wrap: wrap;
+                               justify-content: center;
+                               margin: auto;
+                               padding-bottom: 77px;
+                            }
+                            
+                            .card-hover-2{
+                               width: 193px;
+                               height: 265px;
+                               border-radius: 27px;
+                               box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                               overflow: hidden;
+                               margin: 25px 25px;
+                               text-align: center;
+                               transition: all .5s;
+                               background: #fafafa;
+                            }
+                            
+                            .card-hover-2:hover{
+                               transform: translateY(-15px);
+                               transition: all .5s;
+                            }
+                            
+                            
+                            .card-2>img{
+                               width: 193px;
+                               height: 193px;
+                            }
+                            
+                            .icons-insta>img{
+                               width: 160px;
+                               padding-top: 13px;
+                               padding-bottom: 1px;
+                               
+                            }
+                            
+                            .click-insta{
+                               font-size: 10px;
+                               color: rgb(43, 43, 43);
+                            }
+                            
+                            .link-insta-2{
+                               text-decoration: none;
+                            }
+                            
+                            .instalogo{
+                            width: 165px;
+                            padding-top: 16px;
+                            margin: 0 50px;
+                            
+                            }
+                             
+                                }
+
+                                @media (max-width: 495px){
+
+                                    /*Port1*/
+    
+    .port1{
+        background: url(../img/port5.jpg);
+        background-size: cover;
+        background-position: bottom;
+        height: 300px;
+    }
+    
+    .cont-port{
+      width: 87%;
+      margin: auto;
+    }
+    
+    .textos-port{
+        color: #ffffff;
+        font-size: 1.6em;
+        padding-top: 60px;
+        margin: auto;
+        text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.616);
+    }
+    
+    .btn{
+      border-radius: 40px;
+      text-decoration: none;
+      display: block;
+      padding: 14px 5px;
+    }
+    
+    .btn-uno{
+      margin-top: 18px;
+      color: #fff;
+      background-color: rgb(150, 18, 18);
+      font-size: .9em;
+      text-align: center;
+      width: 130px;
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+      transition: .5s;
+    }
+    
+    .btn-uno:hover{
+      margin-top: 18px;
+      color: #fff;
+      background-color: rgb(204, 25, 25);
+      font-size: .9em;
+      text-align: center;
+      width: 130px;
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+      transition: .5s;
+    }
+
+                                }
+
+                                @media (max-width: 415px){
+
+                                                                    /*Section1*/
+                                
+                                .navigation{
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    background: rgb(17, 4, 2);
+                                    z-index: 10;
+                                    display: none;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    text-align: center;
+                                   
+                                    
+                            
+                                }
+                            
+                                .navigation.active{
+                                    display: flex;
+                                }
+                            
+                                .navigation ul li{
+                                    display: flex;
+                                    text-align: center;
+                                 
+                                }
+                            
+                                .navigation ul li:hover{
+                                    display: flex;
+                                    text-align: center;
+                                 
+                                }
+                            
+                                .navigation ul li a{
+                                    text-align: center;
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                    margin: auto;
+                                    padding-top: 30px;
+                                }
+                            
+                                .navigation ul li a:hover{
+                                    text-align: center;
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                    margin: auto;
+                                    padding-top: 30px;
+                                }
+                            
+                                .toggleMenu{
+                                    position: relative;
+                                    width: 30px;
+                                    height: 30px;
+                                    background: url(../img/menu-icon.svg);
+                                    background-position: center;
+                                    background-size: 30px;
+                                    background-repeat: no-repeat;
+                                    cursor: pointer;
+                                    z-index: 11;
+                                }
+                            
+                                .toggleMenu.active{
+                                    background: url(../img/close.svg);
+                                    background-position: center;
+                                    background-size: 25px;
+                                    background-repeat: no-repeat;
+                                    }
+    
+    
+    /*Port1*/
+    
+    .port1{
+        background: url(../img/port4.jpg);
+        background-size: cover;
+        background-position: bottom;
+        height: 430px;
+    }
+    
+    .cont-port{
+      width: 87%;
+      margin: auto;
+    }
+    
+    .textos-port{
+        color: #ffffff;
+        font-size: 2em;
+        padding-top: 60px;
+        margin: auto;
+        text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.616);
+    }
+    
+    .btn{
+      border-radius: 40px;
+      text-decoration: none;
+      display: block;
+      padding: 17px 7px;
+    }
+    
+    .btn-uno{
+      margin-top: 22px;
+      color: #fff;
+      background-color: rgb(150, 18, 18);
+      font-size: 1.1em;
+      text-align: center;
+      width: 165px;
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+      transition: .5s;
+    }
+    
+    .btn-uno:hover{
+      margin-top: 22px;
+      color: #fff;
+      background-color: rgb(204, 25, 25);
+      font-size: 1.1em;
+      text-align: center;
+      width: 165px;
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+      transition: .5s;
+    }
+    
+                
+                
+                
+                                     /*Section1*/
+                            
+                            .link-producto{
+                                text-decoration: none;
+                            }
+                            
+                            
+                            .titulo-productos h1{
+                            text-align: center;
+                            padding-top: 55px;
+                            padding-bottom: 27px;
+                            font-weight: 400;
+                            font-size: 25px;
+                            color: rgb(54, 54, 54);
+                            }
+                            
+                            .contenido-card{
+                                width: 100%;
+                                max-width: 600px;
+                                
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                margin: auto;
+                            }
+                            
+                            .card-hover{
+                                width: 150px;
+                                height: 188px;
+                                border-radius: 5px;
+                                box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                                overflow: hidden;
+                                margin: 10px;
+                                text-align: center;
+                                transition: all .5s;
+                            }
+                            
+                            .card-hover:hover{
+                                transform: translateY(-12px);
+                                transition: all .5s;
+                            }
+                            
+                            
+                            .card img{
+                                width: 150px;
+                                height: 107px;
+                            }
+                            
+                            .titulo-card{
+                                font-weight: 400;
+                                font-size: 10px;
+                                color: rgb(31, 31, 31);
+                                padding-top: 0px;
+                            }
+                            
+                            .precio{
+                                color: rgb(34, 173, 238);
+                                font-size: 11px;
+                                padding-top: 0px;
+                            }
+                            
+                            .mas{
+                                font-size: 13px;
+                                color: rgb(180, 180, 180);
+                            }
+                            
+                            .ver-mas{
+                                color: rgb(131, 131, 131);
+                                font-size: 8px;
+                                padding-bottom: 0;
+                            }
+                            
+                            .ver-mas-productos{
+                                text-align: center;
+                                padding-top: 12px;
+                                padding-bottom: 11px;
+                                
+                            }
+                            
+                            .ver-mas-2{
+                                color: #2B1A16;
+                                font-size: 14px;
+                            }
+                            
+                            .mas2{
+                                font-size: 15px;
+                                color: #301d19;
+                                margin: 0;
+                                padding: 0;
+                            }
+                            
+                            
+                            /*Section2*/
+                            
+                            .envio{
+                                
+                                background:  #2B1A16;
+                            }
+                            
+                            .contenido-envio{
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                display: block;
+                                width: 80%;
+                                margin: auto;
+                                align-items: center;
+                                text-align: center;
+                            }
+                            
+                            .textos-envio{
+                                text-align:center;
+                               
+                            }
+                            
+                            .titulo-envio{
+                                color: #fff;
+                                font-size: 24px;
+                                font-weight: 500;
+                            
+                            }
+                            
+                            .parrafo-envio{
+                                padding-top: 18px;
+                                font-weight: 300;
+                                text-align: center;
+                                line-height: 19px;
+                                width: 100%;
+                                color: #fff;
+                                font-size: 11px;
+                            }
+                            
+                            .envio-img{
+                                width: 150px;
+                                padding-top: 20px;
+                               
+
+                                
+                            }
+                            
+                            .wave{
+                                color: #2B1A16; 
+                                padding: 0;
+                             }
+                            
+                            
+                             /*Section3-Instagram*/
+                            
+                            
+                             
+                             .siguenos-insta{
+                                background: #fff;
+                                background-size: cover;
+                                position: relative;
+                            }
+                            
+                            .titulo-insta h1{
+                                text-align: center;
+                                padding-top: 84px;
+                               padding-bottom: 44px;
+                               font-weight: 400;
+                               font-size: 25px;
+                               color: rgb(54, 54, 54);
+                            }
+                            
+                            .contenido-card-2{
+                               width: 100%;
+                               max-width: 800px;
+                               
+                               display: flex;
+                               flex-wrap: wrap;
+                               justify-content: center;
+                               margin: auto;
+                               padding-bottom: 77px;
+                            }
+                            
+                            .card-hover-2{
+                               width: 193px;
+                               height: 265px;
+                               border-radius: 27px;
+                               box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                               overflow: hidden;
+                               margin: 25px 25px;
+                               text-align: center;
+                               transition: all .5s;
+                               background: #fafafa;
+                            }
+                            
+                            .card-hover-2:hover{
+                               transform: translateY(-15px);
+                               transition: all .5s;
+                            }
+                            
+                            
+                            .card-2>img{
+                               width: 193px;
+                               height: 193px;
+                            }
+                            
+                            .icons-insta>img{
+                               width: 160px;
+                               padding-top: 13px;
+                               padding-bottom: 1px;
+                               
+                            }
+                            
+                            .click-insta{
+                               font-size: 10px;
+                               color: rgb(43, 43, 43);
+                            }
+                            
+                            .link-insta-2{
+                               text-decoration: none;
+                            }
+                            
+                            .instalogo{
+                            width: 165px;
+                            padding-top: 16px;
+                            margin: 0 50px;
+                            
+                            }
+
+
+                                }
+
+                                @media (max-width: 321px){
+
+                                    /*Section1*/
+
+
+                                    .contacto-top{
+                                        font-size:9px;
+                                        font-weight: 300;
+                                        color: #ffffff;
+                                        align-items: center;
+                                        width: 90%;
+                                        padding: 2px 0;
+                                        margin: auto;
+                                        height: 30px;
+                                        align-self: center;
+                                        
+                                    }
+                                    
+                                    .header1{
+                                        background: #0c0402;
+                                        height: 20px;
+                                    }
+                                    
+                                    
+                                    .cel-top{
+                                        padding-right: 18px;
+                                    }
+                                    
+                                    .contacto-top-left{
+                                        float: left;
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                    
+                                    .contacto-top-right{
+                                        float: right;
+                                        display: flex;
+                                    }
+                                    
+                                    .redes-img>a{
+                                        padding-left: 9px;
+                                        font-size: 10px;
+                                    }
+                                    
+                                    
+                                    
+                                    .icotel{
+                                        padding-right: 11px;
+                                    }
+                                    
+                                    .instagram{
+                                        color: #ffffff;
+                                        transition: .5s;
+                                    }
+                                    
+                                    .instagram:hover{
+                                        color: #cc398f;
+                                        transition: .5s;
+                                    }
+                                    
+                                    .facebook{
+                                            color: #ffffff;
+                                            transition: .5s;
+                                    }
+                                    
+                                    .facebook:hover{
+                                        color: #4195e4;
+                                        transition: .5s;
+                                    }
+                                    
+                                    .twitter{
+                                        color: #ffffff;
+                                        transition: .5s;
+                                    }
+                                    
+                                    .twitter:hover{
+                                        color: #39cadd;
+                                        transition: .5s;
+                                    }
+                                    
+                                    .pinterest{
+                                        color: #ffffff;
+                                        transition: .5s;
+                                    }
+                                    
+                                    .pinterest:hover{
+                                        color: #cc2121;
+                                        transition: .5s;
+                                    }
+
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(17, 4, 2);
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+    
+
+}
+
+.navigation.active{
+    display: flex;
+}
+
+.navigation ul li{
+    display: flex;
+    text-align: center;
+ 
+}
+
+.navigation ul li:hover{
+    display: flex;
+    text-align: center;
+ 
+}
+
+.navigation ul li a{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.navigation ul li a:hover{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.toggleMenu{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(../img/menu-icon.svg);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.toggleMenu.active{
+    background: url(../img/close.svg);
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    }
+
+
+/*Port1*/
+
+.port1{
+background: url(../img/port4.jpg);
+background-size: cover;
+background-position: bottom;
+height: 340px;
+}
+
+.cont-port{
+width: 87%;
+margin: auto;
+}
+
+.textos-port{
+color: #ffffff;
+font-size: 1.7em;
+padding-top: 60px;
+margin: auto;
+text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.616);
+}
+
+.btn{
+border-radius: 40px;
+text-decoration: none;
+display: block;
+padding: 14px 5px;
+}
+
+.btn-uno{
+margin-top: 20px;
+color: #fff;
+background-color: rgb(150, 18, 18);
+font-size: .8em;
+text-align: center;
+width: 125px;
+box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+transition: .5s;
+}
+
+.btn-uno:hover{
+margin-top: 20px;
+color: #fff;
+background-color: rgb(204, 25, 25);
+font-size: .8em;
+text-align: center;
+width: 125px;
+box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.521);
+transition: .5s;
+}
+
+
+
+
+     /*Section1*/
+
+.link-producto{
+text-decoration: none;
+}
+
+
+.titulo-productos h1{
+text-align: center;
+padding-top: 55px;
+padding-bottom: 27px;
+font-weight: 400;
+font-size: 25px;
+color: rgb(54, 54, 54);
+}
+
+.contenido-card{
+width: 100%;
+max-width: 600px;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+}
+
+.card-hover{
+width: 132px;
+height: 165px;
+border-radius: 4px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+margin: 5px;
+text-align: center;
+transition: all .5s;
+}
+
+.card-hover:hover{
+transform: translateY(-12px);
+transition: all .5s;
+}
+
+
+.card img{
+width: 132px;
+height: 94px;
+}
+
+.titulo-card{
+font-weight: 400;
+font-size: 9px;
+color: rgb(31, 31, 31);
+padding-top: 0px;
+}
+
+.precio{
+color: rgb(34, 173, 238);
+font-size: 11px;
+padding-top: 0px;
+}
+
+.mas{
+font-size: 12px;
+color: rgb(180, 180, 180);
+}
+
+.ver-mas{
+color: rgb(131, 131, 131);
+font-size: 7px;
+padding-bottom: 0;
+}
+
+.ver-mas-productos{
+text-align: center;
+padding-top: 11px;
+padding-bottom: 10px;
+
+}
+
+.ver-mas-2{
+color: #2B1A16;
+font-size: 13px;
+}
+
+.mas2{
+font-size: 14px;
+color: #301d19;
+margin: 0;
+padding: 0;
+}
+
+
+/*Section2*/
+
+.envio{
+
+background:  #2B1A16;
+}
+
+.contenido-envio{
+padding-top: 10px;
+padding-bottom: 10px;
+display: block;
+width: 80%;
+margin: auto;
+align-items: center;
+text-align: center;
+}
+
+.textos-envio{
+text-align:center;
+
+}
+
+.titulo-envio{
+color: #fff;
+font-size: 24px;
+font-weight: 500;
+
+}
+
+.parrafo-envio{
+padding-top: 18px;
+font-weight: 300;
+text-align: center;
+line-height: 19px;
+width: 100%;
+color: #fff;
+font-size: 11px;
+}
+
+.envio-img{
+width: 150px;
+padding-top: 20px;
+
+
+
+}
+
+.wave{
+color: #2B1A16; 
+padding: 0;
+}
+
+
+/*Section3-Instagram*/
+
+
+
+.siguenos-insta{
+background: #fff;
+background-size: cover;
+position: relative;
+}
+
+.titulo-insta h1{
+text-align: center;
+padding-top: 84px;
+padding-bottom: 44px;
+font-weight: 400;
+font-size: 25px;
+color: rgb(54, 54, 54);
+}
+
+.contenido-card-2{
+width: 100%;
+max-width: 800px;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+padding-bottom: 77px;
+}
+
+.card-hover-2{
+width: 193px;
+height: 265px;
+border-radius: 27px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+margin: 25px 25px;
+text-align: center;
+transition: all .5s;
+background: #fafafa;
+}
+
+.card-hover-2:hover{
+transform: translateY(-15px);
+transition: all .5s;
+}
+
+
+.card-2>img{
+width: 193px;
+height: 193px;
+}
+
+.icons-insta>img{
+width: 160px;
+padding-top: 13px;
+padding-bottom: 1px;
+
+}
+
+.click-insta{
+font-size: 10px;
+color: rgb(43, 43, 43);
+}
+
+.link-insta-2{
+text-decoration: none;
+}
+
+.instalogo{
+width: 165px;
+padding-top: 16px;
+margin: 0 50px;
+
+}
+
+
+}
+
+
+

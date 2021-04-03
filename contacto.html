@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="shortcut icon" href="img/icono.ico">
+    <script src="https://kit.fontawesome.com/881f904baf.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Bakery | Contacto</title>
+
+</head>
+<body>
+    <header class="header">
+    
+   
+
+        <div class="header2">
+            <div class="container logo-nav-container">
+                <a href="#" class="logo"><img class="animate__animated animate__fadeInDown" src="img/logo2.svg" alt=""></a>
+               
+                <div class="toggleMenu" onclick="toggleMenu();"></div>
+                <nav class="navigation">
+                  <ul class="animate__animated animate__fadeInDown">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Ubicación</a></li>
+                  </ul>
+                </nav>
+              </div>
+    
+              <script type="text/javascript">
+                function toggleMenu(){
+                    const toggleMenu = document.querySelector('.toggleMenu');
+                    const navigation = document.querySelector('.navigation');
+                    toggleMenu.classList.toggle('active');
+                    navigation.classList.toggle('active');
+                    }
+            </script>
+            
+        </div>
+       
+    
+    </header>
+
+    <main>
+
+<form action="enviar.php" method="POST">
+
+    <div class="animate__animated animate__fadeIn"> 
+
+        <div class="fondo">
+
+
+
+            <div class="todoform">
+
+                <section class="formulario">
+                    <h1 class="titulo-form">Haz tu pedido</h1>
+                      <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                     <input class="controls" type="email" name="correo" id="correo" placeholder="Correo electronico">
+                        <input class="controls" type="text" name="numero" id="numero" placeholder="Numero Whatsapp">
+                     <input class="controls" type="text" name="producto" id="producto" placeholder="Producto">
+                         <p class="info-final">Al recibir los datos de tu pedido te contactaremos por Whatsapp y correo electrónico para cotizar tu pedido.</p>
+                         <input class="botons" type="submit" value="Enviar datos">
+                
+                </section>
+
+            </div>
+            
+                
+        </div>
+
+    </div>
+
+
+</form>
+
+     
+      
+
+
+
+
+
+    </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div style="height: 45px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.10,45.88 C156.59,-6.41 302.76,-17.27 504.22,41.94 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #2B1A16;"></path></svg></div>
+
+        <div class="wow animate__animated animate__fadeIn">
+     
+         <div class="contenido-footer">
+     
+             <div class="contenido-footer-left">
+     
+                 <div class="titulo-contacto">
+                     <p>Contacto</p>
+                 </div>
+                 
+                 <div class="textos-contacto">
+                     <p>Teléfono: 33 3628 4835</p>
+                     <p>Correo: contacto@sweetbakery.com</p>
+                     <p>Av. Guadalupe #45023</p>
+                 </div>
+     
+             </div>
+     
+             <div class="contenido-footer-rigth">
+     
+                 <div class="titulo-contacto">
+                     <p>Redes sociales</p>
+                 </div>
+     
+                 <div class="redes-img-2">
+                     <a href="https://www.instagram.com/crashbandicoot/"><i class="instagram fab fa-instagram"></i></a>
+                     <a href="instagram"><i class="facebook fab fa-facebook-f"></i></a>
+                     <a href="instagram"><i class="twitter fab fa-twitter"></i></a>
+                     <a href="instagram"><i class="pinterest fab fa-pinterest-p"></i></a>
+                 </div>
+             </div>
+              
+         </div>
+     
+         <div class="derechos">
+             <p>Todos los derechos reservados Sweet beakery©</p>
+         </div>
+     
+        </div>
+         
+     
+       
+     
+     </footer>
+
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+
+<script>
+    new WOW().init();
+</script>
+    
+</body>
+</html>
